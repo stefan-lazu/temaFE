@@ -1,0 +1,21 @@
+h1 {
+    color:green;
+}
+p  {
+    color: blue;
+}
+mark { 
+    background-color: grey;
+    color: rgb(223, 45, 21);
+   }
+div {
+align-content: flex-start;
+}
+ #title {
+  text-align: left;
+   }
+#image {
+    vertical-align:right;
+   }
+align-content: flex-end;
+}
