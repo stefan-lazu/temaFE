@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    position: relative;
+
+
+#popup .popupContent {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#popup .arrowMove {
+    padding: 3px 10px 3px 10px;
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+#content {
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contentInitial {
+    height: 100px;
+    width: 150px;
+    background-color: lightgreen;
+    margin: 20px;
+}
+.popupContent {
+    height: 100px;
+    width: 150px;
+    background-color: lightgreen;
+    margin: 20px;
+}
