@@ -1,13 +1,13 @@
 .capTabel {
     background-color: grey;
-    border-width: auto;
+    border-width: 0px;
     border-style: solid;
     border-color: black;
     border-collapse: collapse;
 }
 td {
     background-color: rgb(247, 243, 243);
-    border-width: auto;
+    border-width: 1px;
     border-style: solid;
     border-color: black;
     border-collapse: collapse;
