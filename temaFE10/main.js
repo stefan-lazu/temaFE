@@ -1,5 +1,13 @@
+
+
+
+
+
 let theTileInit = function() {
 
+    
+    
+    
     let closeButtons = document.querySelectorAll('#popup .headerClose');
     let ourCloseButton = closeButtons[0];
 
@@ -37,3 +45,7 @@ let theTileInit = function() {
     axios.get('https://api.spacexdata.com/v4/launches').then(despreLansari);    
     
 };
+let theTile = document.getElementById('theTile');
+theTile.addEventListener('click', function() {
+    theTileInit();
+});

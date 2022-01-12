@@ -52,6 +52,8 @@ body > div {
 
 .contentTile {
     aspect-ratio: 5 / 3;
+    width: 200px;
+    background-color: blue;
 }
 
 .contentTileCore {
